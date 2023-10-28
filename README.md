@@ -75,9 +75,13 @@ with the same name; git allows for the same name for more than one branch
 
 #### Reversion
 Unstaged: git add
-- git checkout -- <filename or .>
+Reverts back to previous version
+- git checkout HEAD/--
+    - Argument: git checkout -- <file>
+    - Argument: git checkout HEAD <file>
 To remove from being staged:
-- git reset <filename or .>
+- git reset <filename or HEAD>
+Note: HEAD (most current), . (all from current directory)
 If Commited
 - git reset --soft HEAD~n
 where n is the number of last version commits; if wanting to revert to before: HEAD~1
@@ -106,3 +110,10 @@ git push origin <tag>
 git checkout <tag>
 ##### HEAD
 - Pointer that represents the most recent commit version of the current branch
+- detached HAED
+Checkout a specific commit hash or tag
+
+#### Others:
+git switch
+git branch
+

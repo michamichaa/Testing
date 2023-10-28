@@ -57,6 +57,16 @@ After doing the commands:
     - <file>
     - <directory>/
 
+#### Deleting a Branch
+for local
+- git branch -d <branch>
+for remote
+- git push origin --delete <branch>
+Both can be done on succession
+
+Deleting the remote but keeping the local: one the local is pushed, will recreate the branch in the remote
+If the local branch is deleted but kept in the remote then a new branch in the local is recreated with the same name; there would be two branches
+with the same name; git allows for the same name for more than one branch
 
 
 

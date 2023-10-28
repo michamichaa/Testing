@@ -44,5 +44,20 @@ if create but stay on current
 - git <command> u origin <branch>
 allows for git <command> to be done without the remote and local arguments
 
+#### Remove files form cache (from seen git)
+- git rm <filename>
+- git rm -r <directory>
+After doing the commands:
+- git commit -m "<message>"
+- git push origin <branch>
+
+#### Ignore Files
+- Create a .gitignore
+- Within the File: Specify specific patterns with * or:
+    - <file>
+    - <directory>/
+
+
+
 
 

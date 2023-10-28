@@ -7,7 +7,7 @@ void Trying() {
 
 int main() {
     cout << "Hello World" << endl;
-    Trying;
+    Trying();
     
 
     return 0;

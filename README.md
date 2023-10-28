@@ -29,6 +29,7 @@ if create but stay on current
 - git init
 - git add .
 - git commit -m "<>"
+- Possily: git branch -M main
 - git remote add origin <https>
 - git push origin main
 

@@ -117,3 +117,10 @@ Checkout a specific commit hash or tag
 git switch
 git branch
 
+Change a git repo to a non git repo:
+rm -rf .git
+
+Uncache commited files or directories to be ignored
+git rm --cached -r <directory/file>
+git commit -m "<>"
+git push origin <branch>

@@ -1,10 +1,3 @@
-# Testing
-
-Hello, I am changing the files
-
-Hello, again, I am now changing this again in a branched repository
-
-
 #### Instruction for GIT
 
 
@@ -124,3 +117,17 @@ Uncache commited files or directories to be ignored
 git rm --cached -r <directory/file>
 git commit -m "<>"
 git push origin <branch>
+
+#### Submodules: git repos inside of git repos
+##### Connect a submodule
+git submodule add <repo-url> path/to/gitRepo
+git submodule init --Access to the actual repo
+git submodule update --Update the submodule within the remote main repo\
+-- or
+git submodule update --init <optional: specify submodules>
+
+git add .
+git commit -m "<>"
+
+-- cloning a repo with a submodule
+git clone --recursive <repo-url>

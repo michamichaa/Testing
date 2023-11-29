@@ -35,6 +35,8 @@ git pull --all
 Rebase: Local commits on top of fetched changes
 - git rebase origin <branch>
 - git pull --rebase origin <branch>
+Update local from remote:
+- git pull origin <branch>
 ##### Information
 - git log
 
